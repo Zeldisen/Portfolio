@@ -58,17 +58,27 @@ button{
     border-radius: 10px;
     border:none;
     background-color: rgb(157, 173, 129);
+     color: #000 !important;
+  -webkit-text-fill-color: #000; /* iOS fix */
+  appearance: none;
+  -webkit-appearance: none;
+    
 
    
     
+}
+button:hover,
+button:focus,
+button:active {
+    background-color: darkolivegreen;
+    color: #000;
 }
 button:hover{
     background-color: darkolivegreen;
 }
 .buttons{
     border-right: 2px solid gray;
-    color: black;
-    
+   
 }
 .hidden{
     display:none;
