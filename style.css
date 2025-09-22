@@ -67,6 +67,7 @@ button:hover{
 }
 .buttons{
     border-right: 2px solid gray;
+    color: black;
     
 }
 .hidden{
@@ -75,12 +76,12 @@ button:hover{
 .textfield{ 
     overflow: auto;
     min-height: 0;  
-     min-width: 0;              /* motverkar horisontell spill */
-  padding: 1rem;             /* valfritt */
+     min-width: 0;    
+  padding: 1rem;             
   -webkit-overflow-scrolling: touch;
    /* text-align: center;*/
-     line-height: 1.7;           /* radavstånd */
-  max-width: 70ch;            /* bättre läsbredd (valfritt) */
+     line-height: 1.7;         
+  max-width: 70ch;         
   margin: 0 auto; 
 
 }
