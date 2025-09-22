@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+   min-height: 100dvh; 
+}
+
+.nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+
+.undernav,
+.nav{
+    
+    background-color: darkolivegreen;
+   padding: 12px 16px; 
+   
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 8em minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto ;
+   /* width: 100%;*/
+    height: 100dvh;
+    background-color: antiquewhite;
+    /*border: 2px solid black;*/
+
+}
+
+.nav, .undernav{ grid-column: 1 / -1; }
+.undernav{
+    background-color: darkolivegreen;
+  
+}
+#name{
+    color: black;
+    margin:5px;
+}
+#title{
+    margin: 10px;
+  
+    color:black;
+}
+button{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100px;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(157, 173, 129);
+
+   
+    
+}
+button:hover{
+    background-color: darkolivegreen;
+}
+.buttons{
+    border-right: 2px solid gray;
+    
+}
+.hidden{
+    display:none;
+}
+.textfield{ 
+    overflow: auto;
+    min-height: 0;  
+     min-width: 0;              /* motverkar horisontell spill */
+  padding: 1rem;             /* valfritt */
+  -webkit-overflow-scrolling: touch;
+   /* text-align: center;*/
+     line-height: 1.7;           /* radavstånd */
+  max-width: 70ch;            /* bättre läsbredd (valfritt) */
+  margin: 0 auto; 
+
+}
+.rubrik{
+    text-align: center;
+}
+.p{
+    column-gap: medium;
+    line-height: 2.5;
+    font-weight: bold;
+}
+p{
+      column-gap: medium;
+      text-align: justify;
+}
+li{
+    text-align: justify;
+}
+.textfield h3{
+    line-height: 4;
+}
+.linkedin{
+  text-align: center;
+  color: blue;
+}
+.stuff{
+    line-height: 2.5;
+    text-align: left;
+}
+h2{
+    line-height: 2;
+}
+a{
+    color:blue;
+}
+.under_list{
+    margin-left: 2rem;
+}
+.under_under_list{
+    margin-left: 3rem;
+}

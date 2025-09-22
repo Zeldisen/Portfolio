@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="grid">
+    <header class="nav">
+        <h2 id="name">Jeanettte Norberg</h2>
+        <h3 id="title">Mobilapputvecklare</h3>
+    </header>
+   <section class="buttons">
+    <button onClick="changeText('default_text')">Start</button>
+    <button onclick="changeText('utbildningar')">Utbildningar</button>
+    <button onclick="changeText('erfarenheter')">Erfarenheter</button>
+    <button onclick="changeText('ommig')">Om mig</button>
+    <button onclick="changeText('kontakt')">Kontakt</button>
+    <button onclick="changeText('projekt')">Projekt</button>
+    <section id="projekt" class="hidden">
+        <button onclick="changeText('android')">Android</button>
+        <button onclick="changeText('ios')">IOS</button>
+        <button onclick="changeText('webb-app')">Webbappar</button>
+    </section>
+    <p class="linkedin"><a href="https://www.linkedin.com/in/jeanette-norberg-bbba00312/">LinkedIn</a></p>
+        
+   </section>
+    <section id="default_text" class="textfield">
+
+    <h4>Kurser som ingått i Mobilapputvecklings utbildningen.</h4>
+    <ul>
+       <li>Java grunder</li>
+       <li>Android utveckling 
+        <ul> <li class="under_list">Språk Kotlin</li></ul>
+       </li>
+       <li>Agil utveckling</li>
+       <li>Android projekt
+        <ul><li class="under_list">BuddyBloom - se under projekt.</li></ul>
+       </li>
+       <li>iOS utveckling <ul><li class="under_list">Språk: swift 
+        <li class="under_under_list">UI-kit</li>
+        <li class="under_under_list">SwiftUI</li></li></ul></li>
+       <li>iOS projekt <ul><li class="under_list">The Cursed Map - se under projekt</li></ul></li>
+       <li>CrossPlattform <ul>
+        <li class="under_list">Språk: Javascript
+            <li class="under_under_list">Html</li>
+            <li class="under_under_list">CSS</li>
+            <li class="under_under_list">React</li>
+            <li class="under_under_list">React-router</li>
+        </li>
+
+    </ul></li>
+    </ul>
+    <h5>I alla kurser har vi fått använda oss av git och GitHub. Alla kurser har haft ett individuelt arbete och ett arbete i team.</h5>
+        </section>
+   <section id="other_text" class="textfield hidden">
+    
+   <section id="utbildningar" class="hidden">
+    <h2 class="rubrik">Utbildningar</h2>
+     <li>Mobilapputvecklare Folkuniversitet Göteborg - pågående fram till 2026-06</li>
+        <li>Undersköterska Vuxenutbildning Vadsbo Mariestad</li>
+        <li>Tandsköterska Gymnasie Utbildning</li>
+        <h3>Kurser</h3>
+        <p></p>
+        <li>Programering 1</li>
+        <li>Skrivande Journalistik</li>
+        <li>Kosmetisk tatuerare</li>
+        <li>Fransstylist</li>
+        <li>Nagelterapeut</li>
+</section>
+
+    <section id="erfarenheter" class="hidden">
+         <h2 class="rubrik">Erfarenheter</h2>
+             <h3>Omvårdnads personal Lss-boende nattarbete fr o m: 2022</h3>
+            <li>Omvårdnad</li>
+            <li>Nattliga tillsyner</li>
+            <li>Personlig stöttning</li>
+
+            <h3>Montering Volvo Lastvagnar Tuve 2018 - 2020</h3>
+            <li>Montering och traverskörning </li>
+            <li>Handhållna maskiner med mera</li>
+
+            <h3>Entreprenör inom skönhets branchen 2010 - 2018</h3>
+            <li>Kundbemötande/Kundservice</li>
+            <li>Utveckling av salongens webbsida</li>
+            <li>Arbetsmiljöansvarig</li>
+            <li>Övriga administrativa uppgifter</li>
+            <li>Inköp och försäljing</li>
+            <h3>Monterings arbete på dotterbolag till Volvo cars</h3>
+            <li>Monteringsarbete</li>
+            <li>Rework på produkter till bilar.</li>
+            <li>Teamleader</li>
+    </section>
+
+     <section id="android" class="hidden">
+        <h2 class="rubrik">Projekt i Android</h2>
+     <p>Projekt jag antingen har deltagit i eller gjort enskilt. <br>
+            List upp och delar en länk till dessa som jag tycker mest om själv.</p>
+            <h3>Buddy bloom</h3>
+            <p><a href="https://github.com/malmz90/Buddybloom.git">gitHub BuddyBloom</a></p>
+            <p> Beskriving: Ett mobilspel skapat till Android, språk: Kotlin. Databas Firebase. <br>
+                Spelet påminner om våra gamla tiders tamagotchi, dock i detta spel handlar det om en 
+                blomma man ska vattna och ta hand om, blomman kan få <br> buggs/bli sjuk när man vattnar den. då får man spraya den med <br>
+                bugspray. Finns mycket annat i denna appen. Detta var ett grupp projekt. Mycket roligt att skapa. <br>
+               <P class="p">Mitt bidrag till denna app: </P> 
+                <li> tidsloop - ändrades dock senare av annan i teamet, som blev en bättre lösning för oss. </li>
+                <li> ge blomman en sjukdom som botas med bugspray.</li>
+                <li>Vissa aminationer bl a kryp på blomman.</li>   
+                <li>Ljud effekter.</li>   
+                <li>och en massa andra små saker. </li>  
+
+       <h3> Card Game </h3>
+        <p><a href="https://github.com/Zeldisen/CardGame.git">gitHub Card Game</a></p>
+        <p>Beskrivning: Ett av de första projekten i Android utveckling. <br>
+        individuelt projekt. Spelet går ut på att gissa om kortet i högen är högre/lägre.</p>
+        <p class="p">Mitt bidrag till appen: </p> 
+        <p> Allt som finns i dena app. ganska så simpelt då detta var en av de första 
+        projeten inom apputveckling jag skapat.</p>
+    </section>
+ <section id="ios" class="hidden">
+        <h2 class="rubrik">Projekt i IOS</h2>
+        
+                <h3>The Cursed Map </h3>
+                <p><a href="https://github.com/malmz90/TheCursedMap.git">gitHub The Cursed Map</a></p>
+
+                <P>Beskrivning: Ett liknande geoCaching med skräck inslag. <br>
+                Skapat för IOS, språk: swift UI, Databas firebase. <br>
+            I denna appen ska du ge dig ut på promenad och leta skatten efter en karta, när du öppnar en kista/skatt så får du lösa ett quiz, <br>
+        om du inte löser quizet kommer en skrämmande amination upp på skärmen med ljudeffekt. klarar du <br>
+    quizen får du pengar, xp. Du kan öka i level och då samla på vissa "tokens" och få extra pengar. <br>
+du kan också bli haunted och måste då skynda dig till nästa skatt.</P>
+<p class="p">Mitt bidrag till denna app: </p>
+<li> ljud effekter och aminationer och funktioner om man inte klarar quizet</li>
+<li> funktioner för xp och pengar</li>
+<li> funktioner för "tokens" samlar kort och ökning av level på dessa.</li>
+<li> funktion och ljud effekt för att kunna bli haunted/unhaunted.</li>
+<li> Övriga ljudeffekter och bakgrundsljud</li>
+<li> Ljud inställningar, att kunna välja vilka ljud användaren vill ha</li>
+<li> profilsidan </li>
+<li> letande av buggar </li>
+       </p>
+ 
+    </section>
+    <section id="webb-app" class="hidden">
+        <h2>Webb Applikationer</h2>
+        <p><a href="https://zeldisen.github.io/workout/#/workouts">Träningsapp</a></p>
+        <p>React app, router. En sida där användaren kan lägga till en övning och antal set och rep.</p>
+        <p>Mer applikationer kommer</p>
+       </section>
+      <section id="kontakt" class="hidden">
+        <h2 class="rubrik">Kontakt</h2>
+         <p>Email: jeanette.norberg82@gmail.com</p>
+            <p>Telefon: 0735155038</p>
+            <p>Adress: Pankan Stora Lyckebo 5, Töreboda</p>
+            
+    </section>
+
+       <section id="ommig" class="hidden">
+        <h2 class="rubrik">Om mig</h2>
+        
+        <p class="stuff"> Språk: Modersmål: Svenska <br>
+    Övrigt språk: Engelska goda kunskaper <br>
+
+    Personlighet: Glad, positiv, kreativ, lyhörd, omtänksam, envis/tålamodig. <br>
+    Fungerar bra både i team och självstängt arbete. <br>
+    B körkort </p>
+    
+            <p> Uppvuxen i Göteborg och flyttade till Töreboda 2020. <br>
+                Arbetar som undersköterska/omvårdnads personal på ett Lss boende i Töreboda kommun. 
+            Studerar nu till mobilapputvecklare, under tiden är jag tjänstledig. Jag är en kreativ person som älskar allt inom skapande och föll därför för kodandet,
+        här finns det ju oändligt med kreativitet. Jag har också något i mig som gör att jag hela tiden vill lära 
+    mig nya saker, och då kommer koden in igen, eftersom utvecklingen går så snabbt framåt utvecklas man personligt med,
+och det gillar jag.</p>
+<p> Jag anser mig vara en aktiv person, med mycket utevistelse på fritiden med våra två hundar. Mina barn är snart vuxna båda två. </p>
+
+    </section>
+
+  </section>
+    <footer class="undernav">
+       
+    </footer>
+    </main>
+    <script>
+        function changeText(id) {
+  const defaultText = document.getElementById('default_text');
+  const otherText   = document.getElementById('other_text');
+  const projectMenu = document.getElementById('projekt');
+
+  defaultText.classList.add('hidden');
+  projectMenu.classList.add('hidden');
+  document.querySelectorAll('#other_text > section').forEach(sec => sec.classList.add('hidden'));
+
+  if (id === 'projekt') {
+    // Visa bara projektmenyn (android/ios/webbappar-knapparna)
+    otherText.classList.add('hidden');
+    projectMenu.classList.remove('hidden');
+    return;
+  }
+
+  // Visa en vanlig innehållssektion (utbildningar, erfarenheter, om mig, kontakt, android, ios, webb-app)
+  otherText.classList.remove('hidden');
+  const target = document.getElementById(id);
+  if (target) target.classList.remove('hidden');
+}
+    </script>
+</body>
+</html>
