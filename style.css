@@ -85,6 +85,7 @@ button:hover{
 }
 .buttons{
     border-right: 2px solid rgb(17, 17, 17);
+    padding-right: 3rem;
    
 }
 .hidden{
@@ -92,15 +93,15 @@ button:hover{
 }
 .textfield{ 
     /* overflow: visible;*/
-   
-    min-height: 0;  
+     overflow-y: auto;
+     min-height: 0;  
      min-width: 0;    
-  padding: 1rem;             
-  -webkit-overflow-scrolling: touch;
+     padding: 1rem;             
+     -webkit-overflow-scrolling: touch;
    /* text-align: center;*/
      line-height: 1.7;         
-  max-width: 70ch;         
-  margin: 0 auto; 
+     max-width: 70ch;         
+     margin: 0 auto; 
 
 }
 .rubrik{
