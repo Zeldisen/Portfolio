@@ -20,6 +20,8 @@ body{
     
     background-color: darkolivegreen;
    padding: 12px 16px; 
+   border: 2px;
+   border-color: black;
    
 }
 
