@@ -81,7 +81,7 @@ button:active {
     color: #000;
 }
 button:hover{
-    background-color: darkolivegreen;
+    background-color: whitesmoke;
 }
 .buttons{
     border-right: 2px solid rgb(17, 17, 17);
