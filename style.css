@@ -41,7 +41,7 @@ body{
 .undernav{
     background-color: darkolivegreen;
      border: 1px solid rgba(0,0,0,0.3);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
    
   
 }
@@ -87,7 +87,8 @@ button:hover{
     display:none;
 }
 .textfield{ 
-    overflow: auto;
+     overflow: visible;
+   
     min-height: 0;  
      min-width: 0;    
   padding: 1rem;             
