@@ -77,14 +77,15 @@ button{
 button:hover,
 button:focus,
 button:active {
-    background-color: whitesmoke;
+    background-color: rgb(242, 235, 227);
     color: #000;
 }
 button:hover{
-    background-color: whitesmoke;
+    background-color: rgb(242, 235, 227);
 }
 .buttons{
     border-right: 2px solid rgb(17, 17, 17);
+    width:150px;
     padding-right: 3rem;
    
 }
