@@ -20,7 +20,7 @@ body{
     
     background-color: darkolivegreen;
    padding: 12px 16px; 
-   border: 2px;
+   border: 5px;
    border-color: black;
    
 }
@@ -58,7 +58,8 @@ button{
     padding: 10px;
     margin:10px;
     border-radius: 10px;
-    border:none;
+    border:3px;
+    border-color: black;
     background-color: rgb(157, 173, 129);
      color: #000 !important;
   -webkit-text-fill-color: #000; /* iOS fix */
