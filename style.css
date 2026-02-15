@@ -87,6 +87,7 @@ button:hover{
     border-right: 2px solid rgb(17, 17, 17);
     width:150px;
     padding-right: 3rem;
+    align-items: center;
    
 }
 .hidden{
